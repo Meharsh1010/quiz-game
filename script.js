@@ -17,7 +17,7 @@ const questions = [
   },
   {
     q: "Which HTML tag is used for the largest heading?",
-    choices: ["<head>", "<h6>", "<h1>", "<header>"],
+    choices: ["&lt;head&gt;", "&lt;h6&gt;", "&lt;h1&gt;", "&lt;header&gt;"],
     answer: 2
   },
   {
@@ -37,7 +37,7 @@ const questions = [
   },
   {
     q: "Inside which HTML element do we put JavaScript?",
-    choices: ["<js>", "<script>", "<javascript>", "<scripting>"],
+    choices: ["&lt;js&gt;", "&lt;script&gt;", "&lt;javascript&gt;", "&lt;scripting&gt;"],
     answer: 1
   },
   {

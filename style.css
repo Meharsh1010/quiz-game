@@ -9,16 +9,24 @@
 }
 
 *{box-sizing:border-box}
-html,body{height:100%}
-body{
+
+/* 🔹 FIXED */
+html, body {
+  min-height: 100%;       /* allow content to grow */
+}
+
+body {
   margin:0;
   font-family:'Inter',system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;
   background: var(--bg-1);
   color:#e6eef8;
+
   display:flex;
-  align-items:center;
-  justify-content:center;
+  justify-content:center; /* center horizontally */
+  align-items:flex-start; /* push container to top */
   padding:28px;
+
+  overflow-y:auto;        /* enable vertical scroll */
 }
 
 /* container */
