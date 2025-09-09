@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Quiz Game</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <header class="header glass">
+      <h1>⚡ Quick Quiz</h1>
+      <div class="meta">
+        <div id="score">Score: 0</div>
+        <div id="qCounter">Question: 0 / 0</div>
+      </div>
+    </header>
+
+    <section class="card glass" id="quizCard">
+      <div class="top-row">
+        <div id="timer">Time: <span id="timeLeft">15</span>s</div>
+      </div>
+
+      <h2 id="questionText">Loading question...</h2>
+
+      <div id="choices" class="choices">
+        <!-- choices buttons injected here -->
+      </div>
+
+      <div class="controls">
+        <button id="nextBtn" class="btn" disabled>Next</button>
+        <button id="quitBtn" class="btn ghost">Quit</button>
+      </div>
+    </section>
+
+    <section class="card glass hidden" id="resultCard">
+      <h2>Results</h2>
+      <p id="finalScore"></p>
+      <div id="review"></div>
+      <div class="controls" style="margin-top:12px;">
+        <button id="retryBtn" class="btn">Play Again</button>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <small>Built with HTML · CSS · JavaScript</small>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
