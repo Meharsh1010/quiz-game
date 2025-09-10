@@ -54,6 +54,11 @@ const questions = [
     q: "Which HTML attribute is used to define inline styles?",
     choices: ["class", "style", "font", "styles"],
     answer: 1
+  },
+  {
+    q: "Which command is used to add changes to the staging area in Git?",
+    choices: ["git add", "git commit", "git push", "git status"],
+    answer: 0
   }
 ];
 
